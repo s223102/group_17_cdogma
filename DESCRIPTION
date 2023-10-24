@@ -1,0 +1,31 @@
+Package: cdogma
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R:
+  c(person(given = "Esben",
+           family = "Thuesen",
+           role = c("aut", "cre""),
+           email = "s223102@student.dtu.dk"),
+    person(given = "Carina"
+           family = "Slidsborg"
+           role = "aut"
+           email = "s236244@student.dtu.dk"),
+    person(given = "Josefine"
+           family = "Meineche"
+           role = "aut"
+           email = "s233776@student.dtu.dk"),
+    person(given = "Eszter"
+           family = "Toldi"
+           role = "aut"
+           email = "s232970@student.dtu.dk"),        
+    person(given = "John"
+           family = "Tran"
+           role = "aut"
+           email = "s230339@student.dtu.dk")
+Maintainer: The package maintainer <s223102@student.dtu.dk>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
