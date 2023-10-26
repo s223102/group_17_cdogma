@@ -1,4 +1,4 @@
-#' Create a DNA string
+#' create_string
 #'
 #' @param size Enter the length of the simulated DNA string you wish.
 #'
@@ -7,9 +7,9 @@
 #'
 #' @examples
 #' length <- 50
-#' create_String(length)
+#' create_string(length)
 #'
-create_String <- function(size){
+create_string <- function(size){
   vector <- sample(c("A", "T", "G", "C"), size = size, replace = TRUE)
   string <- paste0(vector, collapse = "")
   return(string)
