@@ -6,9 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-``` r
-library(cdogma)
-```
+GitHub repository:<https://github.com/s223102/group_17_cdogma>
 
 The cdogma package helps you convert your DNA sequence into a protein,
 replicating the central dogma in biology. It can also be used to
@@ -17,6 +15,10 @@ provide you with a great visualization of the amino acid composition
 encoded in the input DNA sequence.
 
 ***Typical use case:***
+
+``` r
+library(cdogma)
+```
 
 Step 0 Generate random DNA sequence with set length (optional)
 
