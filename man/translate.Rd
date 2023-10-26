@@ -4,10 +4,10 @@
 \alias{translate}
 \title{translate}
 \usage{
-translate(vector_of_codons)
+translate(codon)
 }
 \arguments{
-\item{vector_of_codons}{vector of codons representing an RNA sequence}
+\item{codon}{vector of codons representing an RNA sequence}
 }
 \value{
 returns collapsed amino acid sequence as a string
@@ -16,6 +16,6 @@ returns collapsed amino acid sequence as a string
 translate
 }
 \examples{
-AAs <- c(M, A, G, G, T, Y, Y, P, I, K, L, M)
+AAs <- c("GCG", "AUU", "GUU", "GAU", "UUU", "CGC", "CCU", "UCG", "AAC", "AUC", "GUU", "UAA")
 translate(AAs)
 }

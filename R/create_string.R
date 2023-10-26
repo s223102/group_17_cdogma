@@ -1,6 +1,6 @@
 #' Create a DNA string
 #'
-#' @param size
+#' @param size Enter the length of the simulated DNA string you wish.
 #'
 #' @return string
 #' @export
