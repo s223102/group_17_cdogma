@@ -19,5 +19,3 @@ hello <- function() {
 
 # edit edit edit stuff
 
-#hello
-hello()
